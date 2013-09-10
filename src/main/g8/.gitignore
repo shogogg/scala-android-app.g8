@@ -1,0 +1,11 @@
+#generated files
+target/
+**/target/
+.idea/
+.idea_modules/
+*.class
+**/*.class
+.DS_store
+
+#screenshots
+device-*.png
