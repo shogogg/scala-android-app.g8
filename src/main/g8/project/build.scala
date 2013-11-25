@@ -46,7 +46,7 @@ object General {
 object AndroidBuild extends Build {
 
   lazy val main = AndroidProject(
-    id       = "$name$",
+    id       = "$name;format="normalize"$",
     base     = file("."),
     settings = General.baseSettings ++ Seq(
       resolvers           ++= General.resolvers,
