@@ -12,7 +12,7 @@ object General {
     name := "$name$",
     // アプリのバージョン
     version := "$version$",
-    versionCode := "$versionCode$",
+    versionCode := $versionCode$,
     // アプリのビルドに使用する Scala のバージョン
     scalaVersion := "$scalaVersion$",
     // ビルド対象のプラットフォーム（targetSdkVersion）
