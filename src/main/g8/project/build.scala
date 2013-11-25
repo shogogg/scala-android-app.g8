@@ -19,9 +19,9 @@ object General {
   )
 
   val libraryDependencies = Seq(
-    "android.support" % "compatibility-v4" % "18",
-    "android.support" % "compatibility-v7-appcompat" % "18",
-    apklib("android.support" % "compatibility-v7-appcompat" % "18")
+    "android.support" % "compatibility-v4" % "19",
+    "android.support" % "compatibility-v7-appcompat" % "19",
+    apklib("android.support" % "compatibility-v7-appcompat" % "19")
   )
 
   val scalacOptions = Seq("-feature")
