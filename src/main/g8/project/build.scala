@@ -36,11 +36,11 @@ object General {
   val libraryDependencies = Seq(
     
     // Android Support Library v4 (jar)
-    "android.support" % "compatibility-v4" % "19",
+    "android.support" % "compatibility-v4" % "19.+",
     
     // Android Support Library v7 (jar & apklib)
-    "android.support" % "compatibility-v7-appcompat" % "19",
-    apklib("android.support" % "compatibility-v7-appcompat" % "19")
+    "android.support" % "compatibility-v7-appcompat" % "19.+",
+    apklib("android.support" % "compatibility-v7-appcompat" % "19.+")
   
   )
 
